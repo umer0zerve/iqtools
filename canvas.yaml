@@ -1,56 +1,54 @@
-id: ae90de69-4209-48d5-a746-05d526205d32
-name: canvas_for_mike
-project_id: 8a54163d-ccd2-48e0-85f7-2cf302fd2ea3
+id: 2b9a8d09-8c44-4e66-9634-b964760bef20
+name: canvas
+project_id: 8b2042f4-ceb7-42cf-a19a-c577f5e38f90
 global_imports: []
 is_public: false
 workspace_id: null
 layers:
 - blocks:
   - auto_size: false
-    canvas_id: ae90de69-4209-48d5-a746-05d526205d32
+    canvas_id: 2b9a8d09-8c44-4e66-9634-b964760bef20
     compute_environment_type: 1
     cpu: 2048
     description: ''
-    height: 595
-    id: b16c9710-9b59-47f2-8dff-f52de7ed5d12
-    layer_id: 959dd361-b8dc-4210-b0b6-0828e98afbbc
+    height: 500
+    id: 0c0cb629-d1a2-478a-8b02-481298c631a2
+    layer_id: 7344dad2-4e86-4ab5-88b5-d6f41e719a50
     memory: 16384
     name: ''
     parent_id: null
     properties: {}
-    status: 3
+    status: 1
     type: 1
     variables: null
-    width: 1492
-    x: -265
-    y: 341
+    width: 800
+    x: 250
+    y: 165
   - auto_size: false
-    canvas_id: ae90de69-4209-48d5-a746-05d526205d32
+    canvas_id: 2b9a8d09-8c44-4e66-9634-b964760bef20
     compute_environment_type: 1
     cpu: 2048
     description: ''
-    height: 589
-    id: 0dc99b02-b263-452a-8945-035802e4de1e
-    layer_id: 959dd361-b8dc-4210-b0b6-0828e98afbbc
+    height: 500
+    id: 7a19d932-77f5-4a26-96f1-1e367d7adbee
+    layer_id: 7344dad2-4e86-4ab5-88b5-d6f41e719a50
     memory: 16384
     name: ''
     parent_id: null
-    properties:
-      model: mistral.mistral-large-2402-v1:0
-      output_variable: output
-    status: 3
-    type: 9
+    properties: {}
+    status: 1
+    type: 1
     variables: null
-    width: 1060
-    x: 1346
-    y: 355
-  canvas_id: ae90de69-4209-48d5-a746-05d526205d32
+    width: 800
+    x: 1271
+    y: 172
+  canvas_id: 2b9a8d09-8c44-4e66-9634-b964760bef20
   edges:
-  - canvas_id: ae90de69-4209-48d5-a746-05d526205d32
-    id: f885e2c9-e88f-4081-9f0d-f99fc24c3690
-    layer_id: 959dd361-b8dc-4210-b0b6-0828e98afbbc
-    source: b16c9710-9b59-47f2-8dff-f52de7ed5d12
-    target: 0dc99b02-b263-452a-8945-035802e4de1e
-  id: 959dd361-b8dc-4210-b0b6-0828e98afbbc
+  - canvas_id: 2b9a8d09-8c44-4e66-9634-b964760bef20
+    id: c0bac6f2-1a67-4bcf-a860-9ae1d6935dfe
+    layer_id: 7344dad2-4e86-4ab5-88b5-d6f41e719a50
+    source: 0c0cb629-d1a2-478a-8b02-481298c631a2
+    target: 7a19d932-77f5-4a26-96f1-1e367d7adbee
+  id: 7344dad2-4e86-4ab5-88b5-d6f41e719a50
   name: Development
   type: 1
